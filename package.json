@@ -1,0 +1,18 @@
+{
+  "name": "keyringctl",
+  "version": "0.0.1",
+  "description": "CLI for keyring management.",
+  "private": true,
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jared.hanson@modulate.io",
+    "url": "http://www.modulate.io/"
+  },
+  "dependencies": {
+    "bixby": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}
