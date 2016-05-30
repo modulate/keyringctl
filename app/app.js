@@ -8,12 +8,14 @@ exports = module.exports = function(keyring, Crypto) {
         console.log('ADDED!');
         console.log(err);
         
+        if (err) { throw err; }
+        
       });
     });
   }
 }
 
 exports['@require'] = [
-  'crypto/db/vault/keyring', //'http://i.bixbyjs.org/crypto/Keyring',
+  'crypto/ds/keyring', // 'http://i.bixbyjs.org/crypto/Keyring',
   'http://i.bixbyjs.org/crypto'
 ];
